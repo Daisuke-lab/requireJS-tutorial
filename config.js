@@ -1,3 +1,6 @@
 require.config({
-    deps: ["main"]
+    paths: {
+        "new_test_path": "./test1/test2/"
+    },
+    deps: ["main"],
 })
